@@ -1,9 +1,17 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import PokemonsContainer from './components/PokemonsContainer';
 
 function App() {
   return (
     <div className="App">
-      <h4 className="text-primary">Pokemon Cards</h4>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<PokemonsContainer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
