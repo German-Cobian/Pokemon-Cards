@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Pokemon-Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este app React-Redux extrae de [Poke API](https://pokeapi.co/) informacion respecto a los distintos Pokemons.
 
-## Available Scripts
+Desde la pagina home, el usuario podra acceder a la barra de busqueda para obtener informacion acerca de un Pokemon por nombre.
 
-In the project directory, you can run:
+En la barra de navegacion se da, asimismo, la opcion de acudir a otra pagina donde el usuario puede buscar una coleccion de Pokemons de acuerdo a el tipo que entre en la barra de busqueda.
 
-### `npm start`
+Finalmente, atravez de la barra de navegacion, se puede acudir a otra pagina para ver un listado de todos los distintos tipos de Pokemon. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instalacion y configuracion
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Abra su terminal - Windows: `Win + R`, despues entre `cmd` | Mac: `Command + space`, despues entre `Terminal`
+* Navegue al directorio de su eleccion, usando el comando `cd`
+* Haga ejecutar este comando en la terminal de su OS: `git clone git@github.com:German-Cobian/Pokemon-Cards.git` para obtener una copia del proyecto
+* Navegue al directorio del proyecto usando el comando `cd`
+* En el folder clonado, ejecute `npm install`
+* Para iniciar el server, ejecute `npm start`
+* Visite `http://localhost:3001/` en su browser para ingresar en el app
 
-### `npm test`
+## Construido con
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* HTML
+* Css
+* JavaScript
+* React
+* Redux
+* Github workflow
 
-### `npm run build`
+## Autor
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👤 **German Cobian**
+* GitHub: [@German Cobian](https://github.com/German-Cobian)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
+* LinkedIn: [@German Cobian](https://www.linkedin.com/in/german-cobian/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Contribuir
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuciones, cuestiones, y sugerencias de funciones adicionales son bienvenidas!
 
-### `npm run eject`
+Sientase en libertad de echarle un ojo a la [pagina issues](https://github.com/German-Cobian/Pokemon-Cards/issues).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Muestre su apoyo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si gusta de este proyecto, dele una ⭐️!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 Licencia
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[ Licencia MIT](https://github.com/German-Cobian/Pokemon-Cards/blob/main/LICENSE).

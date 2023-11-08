@@ -22,11 +22,7 @@ const PokemonContainer = () => {
 
   <div className="">
     <div className="d-flex flex-row justify-content-center mt-5" id="section__searchbar">
-      <label
-        className="me-2"
-      >
-      Search for Pokemon by Name:
-      </label>
+      <label className="me-2"><strong>Search for Pokemon by Name:</strong></label>
       <input
         className="rounded col-4"
         type="search"
