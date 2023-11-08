@@ -7,10 +7,10 @@ const Pokemons = (props) => {
 
   return (
     <>
-      <div className="" key={id}>
-        <div className="d-flex flex-row justify-content-around">
-          <h4 className="ms-5">{name}</h4>
-          <p className="ms-5">{url}</p>
+      <div className="py-3" key={id}>
+        <div className="d-flex flex-row justify-content-start">
+          <h4 className="me-5">{name}</h4>
+          <p className="">{url}</p>
         </div>
       </div>
     </>

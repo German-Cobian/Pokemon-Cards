@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import PokemonsHeader from './PokemonsHeader';
 import Pokemons from './Pokemons';
 import { displayPokemons } from '../redux/actions/pokemons';
 
@@ -16,10 +15,7 @@ const PokemonsContainer = () => {
   return (
 
   <div className="d-flex flex-column">
-    <div className="border-bottom mt-5 pb-5">
-      <PokemonsHeader />
-    </div>
-    <div className="mt-5">
+    <div className="border border-dark rounded mt-5 mx-5 py-5 px-5">
       { pokemonsState.map((item) => (
         <Pokemons
           key={item.id}

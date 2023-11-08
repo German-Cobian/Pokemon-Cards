@@ -5,7 +5,7 @@ const Pokemon = (props) => {
     id, name, order, height, weight, base_experience
   } = props;
 
-  const picture = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
+  const picture = `https://img.pokemondb.net/sprites/home/normal/${name}.png`
 
   return (
     <div className="d-flex flex-row justify-content-center">
@@ -16,6 +16,11 @@ const Pokemon = (props) => {
         <div className="mx-5 mb-5">
           <table className="table">
             <tbody>
+              <tr>
+                <th scope="row" className="text-start">Id:</th>
+                <td className="text-start">{id}</td>
+                <td><i className="fa fa-arrow-circle-o-right" aria-hidden="true" /></td>
+              </tr>
               <tr>
                 <th scope="row" className="text-start">Name:</th>
                 <td className="text-start">{name}</td>
