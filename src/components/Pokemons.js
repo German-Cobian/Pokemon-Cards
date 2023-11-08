@@ -8,10 +8,9 @@ const Pokemons = (props) => {
   return (
     <>
       <div className="" key={id}>
-        <div>
-          <h4 className="">{id}</h4>
-          <h4 className="">{name}</h4>
-          <h4 className="">{url}</h4>
+        <div className="d-flex flex-row justify-content-around">
+          <h4 className="ms-5">{name}</h4>
+          <p className="ms-5">{url}</p>
         </div>
       </div>
     </>
