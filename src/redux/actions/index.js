@@ -1,0 +1,3 @@
+export const FETCH_TYPELIST = 'FETCH_TYPELIST';
+export const FETCH_POKEMON = 'FETCH_POKEMON';
+export const FETCH_TYPE = 'FETCH_TYPE';
