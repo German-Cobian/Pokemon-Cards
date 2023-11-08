@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import PokemonContainer from './components/PokemonContainer';
-import PokemonsContainer from './components/PokemonsContainer';
+import TypelistContainer from './components/TypelistContainer';
 import TypeContainer from './components/TypeContainer';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path="/" element={<PokemonContainer />} />
-          <Route exact path="/types-listing" element={<PokemonsContainer />} />
+          <Route exact path="/types-listing" element={<TypelistContainer />} />
           <Route exact path="/pokemons-type" element={<TypeContainer />} />
         </Routes>
       </BrowserRouter>

@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import pokemonsReducer from './pokemons';
+import typelistReducer from './typelist';
 import pokemonReducer from './pokemon';
 import typeReducer from './type';
 
 const rootReducer = combineReducers({
-  pokemons: pokemonsReducer,
+  pokemons: typelistReducer,
   pokemon: pokemonReducer,
   type: typeReducer
 });

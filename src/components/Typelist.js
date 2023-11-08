@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Pokemons = (props) => {
+const Typelist = (props) => {
   const {
     id, name, url,
   } = props;
@@ -17,4 +17,4 @@ const Pokemons = (props) => {
   );
 };
 
-export default Pokemons;
+export default Typelist;

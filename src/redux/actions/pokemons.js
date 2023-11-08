@@ -1,7 +1,7 @@
-import { FETCH_POKEMONS, FETCH_POKEMON, FETCH_TYPE } from '.';
+import { FETCH_TYPELIST, FETCH_POKEMON, FETCH_TYPE } from '.';
 
 // eslint-disable-next-line import/prefer-default-export
-export const displayPokemons = () => async (dispatch) => {
+export const displayTypelist = () => async (dispatch) => {
   const response = await fetch('https://pokeapi.co/api/v2/type', {
     method: 'GET',
     headers: {
@@ -11,9 +11,9 @@ export const displayPokemons = () => async (dispatch) => {
   if (response.ok) {
     const data = await response.json();
     console.log(data)
-    dispatch({ type: FETCH_POKEMONS, payload: data.results });
+    dispatch({ type: FETCH_TYPELIST, payload: data.results });
   } else {
-    dispatch({ type: FETCH_POKEMONS, payload: [] });
+    dispatch({ type: FETCH_TYPELIST, payload: [] });
   }
 };
 
