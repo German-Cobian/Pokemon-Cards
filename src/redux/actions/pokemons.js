@@ -10,7 +10,6 @@ export const displayTypelist = () => async (dispatch) => {
   });
   if (response.ok) {
     const data = await response.json();
-    console.log(data)
     dispatch({ type: FETCH_TYPELIST, payload: data.results });
   } else {
     dispatch({ type: FETCH_TYPELIST, payload: [] });
@@ -26,7 +25,6 @@ export const displayPokemon = (name) => async (dispatch) => {
   });
   if (response.ok) {
     const data = await response.json();
-    console.log(data)
     dispatch({ type: FETCH_POKEMON, payload: data });
   } else {
     dispatch({ type: FETCH_POKEMON, payload: [] });
@@ -42,7 +40,6 @@ export const displayType = (name) => async (dispatch) => {
   });
   if (response.ok) {
     const data = await response.json();
-    console.log(data)
     const types = data.pokemon.map((item) => item.pokemon);
     dispatch({ type: FETCH_TYPE, payload: types });
   } else {

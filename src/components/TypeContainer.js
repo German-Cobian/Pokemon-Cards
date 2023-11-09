@@ -5,12 +5,12 @@ import { displayType } from '../redux/actions/pokemons';
 import './Style.css';
 
 
-const PokemonContainer = () => {
+const TypeContainer = () => {
   const [searchValue, setSearchValue] = useState('');
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(displayType('pikachu'));
+    dispatch(displayType('fire'));
   }, [dispatch]);
 
   const onChangeSearchBar = (e) => {
@@ -48,4 +48,4 @@ const PokemonContainer = () => {
   );
 };
 
-export default PokemonContainer;
+export default TypeContainer;
