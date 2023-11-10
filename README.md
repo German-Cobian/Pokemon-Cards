@@ -6,11 +6,11 @@ Desde la pagina home, el usuario podra acceder a la barra de busqueda para obten
 
 ![Listing of Pokemons](/src/assets/Pokemon-single.jpg "Single Pokemnon")
 
-En la barra de navegacion se da, asimismo, la opcion de acudir a otra pagina donde el usuario puede buscar una coleccion de Pokemons de acuerdo a el tipo que entre en la barra de busqueda.
+En la barra de navegacion se da, asimismo, la opcion de acudir a otra pagina donde el usuario puede buscar una coleccion de Pokemons de acuerdo al "tipo" que se entre en la barra de busqueda.
 
 ![Pokemons by type](/src/assets/Pokemons-collection.jpg "Pokemons by type")
 
-Finalmente, atravez de la barra de navegacion, se puede acudir a otra pagina para ver un listado de todos los distintos tipos de Pokemon.
+Finalmente, atravez de la barra de navegacion, se puede acudir a otra pagina para ver un listado de todos los distintos "tipos" de Pokemon.
 
 ![Listing of Pokemons](/src/assets/Pokemons-listing.jpg "Listing of Pokemons")
 
