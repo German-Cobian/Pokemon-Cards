@@ -18,7 +18,7 @@ const Type = (props) => {
             <tbody>
               <tr>
                 <th scope="row" className="text-start">Name:</th>
-                <td className="text-start">{name}</td>
+                <td className="text-start text-capitalize">{name}</td>
                 <td><i className="fa fa-arrow-circle-o-right" aria-hidden="true" /></td>
               </tr>
             </tbody>

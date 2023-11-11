@@ -26,7 +26,7 @@ const TypelistContainer = () => {
       <tbody>
         { pokemonsState.map((item) => (
           <tr key={item.id}>
-            <td>{item.name}</td>
+            <td className="text-capitalize">{item.name}</td>
             <td>{item.url}</td>
           </tr>
         ))}
