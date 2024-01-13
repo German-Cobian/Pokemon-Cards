@@ -1,4 +1,5 @@
 import React from 'react';
+import './Style.css';
 
 const Pokemon = (props) => {
   const {
@@ -13,7 +14,7 @@ const Pokemon = (props) => {
         <div className="d-flex flex-row justify-content-center">
           <img src={picture} className="mt-2" height='200' alt="pokemon-pic" />
         </div>
-        <div className="mx-5 mb-5">
+        <div className="info-row mb-5">
           <table className="table">
             <tbody>
               <tr>

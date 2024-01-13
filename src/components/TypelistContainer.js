@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import Typelist from './Typelist';
 import { displayTypelist } from '../redux/actions/pokemons';
+import './Style.css';
 
 const TypelistContainer = () => {
   const dispatch = useDispatch();
@@ -14,20 +14,24 @@ const TypelistContainer = () => {
 
   return (
 
-  <div className="d-flex flex-column">
-    <div className="border border-dark rounded mt-5 mx-5 py-5 px-5">
-      { pokemonsState.map((item) => (
-        <Typelist
-          key={item.id}
-          id={item.id}
-          name={item.name}
-          url={item.url}
-        />
-      ))}
-    </div>
-    <div className="mt-5">
-      <Typelist />
-    </div>
+  <div className="d-flex flex-column mx-5">
+    <h3 class="my-5">A Listing of all Pokemon Types</h3>
+    <table className="table">
+      <thead className="">
+        <tr>
+          <th scope="col">Type Name:</th>
+          <th scope="col">Url:</th>
+        </tr>
+      </thead>
+      <tbody>
+        { pokemonsState.map((item) => (
+          <tr key={item.id}>
+            <td>{item.name}</td>
+            <td>{item.url}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   </div>
   );
 };

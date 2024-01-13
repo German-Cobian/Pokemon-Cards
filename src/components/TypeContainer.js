@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Type from './Type';
 import { displayType } from '../redux/actions/pokemons';
+import './Style.css';
+
 
 const PokemonContainer = () => {
   const [searchValue, setSearchValue] = useState('');
@@ -22,11 +24,7 @@ const PokemonContainer = () => {
 
   <div className="">
     <div className="d-flex flex-row justify-content-center mt-5" id="section__searchbar">
-      <label
-        className="me-2"
-      >
-      Search for Pokemon by Type:
-      </label>
+      <label className="me-2"><strong>Search for Pokemon by Type:</strong></label>
       <input
         className="rounded col-4"
         type="search"
@@ -37,7 +35,7 @@ const PokemonContainer = () => {
         value={searchValue}
       />
     </div>
-    <div>
+    <div className="d-flex flex-wrap justify-content-around">
       { typeState.map((item) => (
         <Type
           key={item.id}

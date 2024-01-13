@@ -8,8 +8,8 @@ const Type = (props) => {
   const picture = `https://img.pokemondb.net/sprites/home/normal/${name}.png`
 
   return (
-    <div className="d-flex flex-row justify-content-center">
-      <div className="border border-dark rounded my-3 w-50" key={id}>
+    <div className="">
+      <div className="border border-dark rounded my-3" key={id}>
         <div className="d-flex flex-row justify-content-center">
           <img src={picture} className="mt-2" height='200' alt="pokemon-pic" />
         </div>
