@@ -14,6 +14,7 @@ Finalmente, atravez de la barra de navegacion, se puede acudir a otra pagina par
 
 ![Listing of Pokemons](/src/assets/Pokemons-listing.jpg "Listing of Pokemons")
 
+
 ### Instalacion y configuracion
 
 * Abra su terminal - Windows: `Win + R`, despues entre `cmd` | Mac: `Command + space`, despues entre `Terminal`
